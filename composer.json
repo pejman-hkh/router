@@ -1,0 +1,22 @@
+{
+    "name": "pejman/router",
+    "authors": [
+        {
+            "name": "pejman hkh",
+            "email": "pejman.hkh@gmail.com"
+        }
+    ],
+    "require": {},
+    "license": "MIT",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },     
+    "autoload": {
+        "psr-4": {
+            "Pejman\\": "src/"
+        }
+    }      
+}

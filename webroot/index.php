@@ -1,10 +1,6 @@
-# router
-simple php router
-dynamic routing with elseRoute
+<?php
+require_once __DIR__.'/../vendor/autoload.php';
 
-# Usage
-
-```php
 use Pejman\Router as Router;
 
 function getPath() {
@@ -38,4 +34,4 @@ Router::route('admin/{controller?}/{action?}/{id?}', function( $id = 0 ) {
 Router::dispatch(function( $status ) {
 	echo "\nstatus is ".$status;
 });
-```
+?>

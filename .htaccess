@@ -1,0 +1,6 @@
+RewriteEngine on
+Options -Indexes
+RewriteRule    ^$    webroot/    [L]
+RewriteCond %{REQUEST_FILENAME} !-f	
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule    (.*) webroot/$1    [L]
